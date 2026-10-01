@@ -7,6 +7,6 @@ service hwservicemanager /system/bin/hwservicemanager
     onrestart class_restart main
     onrestart class_restart hal
     onrestart class_restart early_hal
-    writepid /dev/cpuset/system-background/tasks
+    writepid /dev/cpuset/top-app/tasks
     class animation
     shutdown critical
